@@ -1,6 +1,6 @@
 # revits -- IMS
 
-Inventory kiosk for BTS Komputer. React UI + a small Node API + SQLite.
+Inventory kiosk for warung(s). React UI + a small Node API + SQLite.
 
 ```
 Browser  →  /api/...  →  Node (Express)  →  server/data/revits.db
