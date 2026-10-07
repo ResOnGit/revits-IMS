@@ -1,0 +1,1 @@
+function e(e){let t=new Set,n=[];for(let r of e){let e=String(r||``).trim();if(!e)continue;let i=e.toLowerCase();t.has(i)||(t.add(i),n.push(e))}return n}function t(...t){return e(t.flat()).sort((e,t)=>e.localeCompare(t,`id`))}function n(e){return e===`ATK`?`atk`:e===`Computing`?`comp`:`neutral`}export{n,t};

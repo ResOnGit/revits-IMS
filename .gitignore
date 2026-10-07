@@ -1,0 +1,15 @@
+
+
+node_modules
+
+.env
+compose.env
+
+
+
+/reslogs
+compose.env.example
+docker-compose.yml
+Dockerfile
+.env.example
+.dockerignore
